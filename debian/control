@@ -16,6 +16,7 @@ Rules-Requires-Root: no
 Package: node-is-extglob
 Architecture: all
 Depends: ${misc:Depends}
+Multi-Arch: foreign
 Description: Node module to return true if a string is an extglob
  Node module providing a function that returns true if a string contains
  an extglob. Extglobs add the expressive power of regular expressions
